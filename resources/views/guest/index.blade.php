@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            ゲスト用の投稿の一覧（未ログイン）
+            post2のゲスト用の投稿の一覧（未ログイン）
         </h2>
 
         <x-message :message="session('message')" />
