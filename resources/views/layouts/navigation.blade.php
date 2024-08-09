@@ -70,14 +70,8 @@
                     </x-slot>
                     @else
                     <x-slot name="content">
-                        <x-dropdown-link>
-                            <a href="{{route('register')}}">ご登録はこちら</a>
-                        </x-dropdown-link>
-                        <x-dropdown-link>
-                            <a href="{{route('login')}}">
-                                ログイン
-                            </a>
-                        </x-dropdown-link>
+                        <x-dropdown-link href="{{route('register')}}">ご登録はこちら</x-dropdown-link>
+                        <x-dropdown-link href="{{route('login')}}">ログイン</x-dropdown-link>
                     </x-slot>
                     @endif
                 </x-dropdown>
